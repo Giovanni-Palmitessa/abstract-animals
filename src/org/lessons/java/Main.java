@@ -29,4 +29,8 @@ public class Main {
     public static void faiVolare(CanFly animale) {
         animale.fly();
     }
+
+    public static void faiNuotare(CanSwim animale) {
+        animale.swim();
+    }
 }
