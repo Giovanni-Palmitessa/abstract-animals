@@ -1,4 +1,4 @@
-package org.lessons.java;
+package org.lessons.java.animals;
 
 public class PesceRosso extends Animale implements CanSwim{
     //COSTRUTTORE

@@ -1,4 +1,4 @@
-package org.lessons.java;
+package org.lessons.java.animals;
 
 public interface CanSwim {
     void swim();

@@ -1,4 +1,4 @@
-package org.lessons.java;
+package org.lessons.java.animals;
 
 public class Pappagallo extends Animale implements CanFly{
     public Pappagallo(String name) {
