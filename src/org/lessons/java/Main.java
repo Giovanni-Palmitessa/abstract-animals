@@ -18,10 +18,12 @@ public class Main {
             animale.sleep();
             animale.sound();
             if (animale instanceof CanSwim) {
-                ((CanSwim) animale).swim();
+//                ((CanSwim) animale).swim();
+                faiNuotare((CanSwim) animale);
             }
             if (animale instanceof CanFly) {
-                ((CanFly) animale).fly();
+//                ((CanFly) animale).fly();
+                faiVolare((CanFly) animale);
             }
         }
     }
