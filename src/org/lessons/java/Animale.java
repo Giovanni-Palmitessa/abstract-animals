@@ -21,8 +21,9 @@ public abstract class Animale {
     public void sleep() {
         System.out.println("Sto dormendo...Zzz");
     }
+
     public void eat() {
-        System.out.println("Sto mangiando...");
+
     }
 
     public abstract void sound();

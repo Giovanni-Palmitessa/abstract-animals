@@ -9,6 +9,11 @@ public class Main {
 
         Animale[] animali = {cane, gatto, pappagallo};
 
-
+        for (Animale animale : animali) {
+            System.out.println("Mi chiamo -> " + animale.getName());
+            animale.eat();
+            animale.sleep();
+            animale.sound();
+        }
     }
 }
