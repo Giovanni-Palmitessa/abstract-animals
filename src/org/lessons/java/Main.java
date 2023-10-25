@@ -6,9 +6,10 @@ public class Main {
         Cane cane = new Cane("GianGiorgio");
         Gatto gatto = new Gatto("Genoveffa");
         Pappagallo pappagallo = new Pappagallo("Kiwi");
+        PesceRosso pesceRosso = new PesceRosso("GinoBuonVino");
 
         // Array di Animali
-        Animale[] animali = {cane, gatto, pappagallo};
+        Animale[] animali = {cane, gatto, pappagallo, pesceRosso};
 
         // Ciclo per stampare i metodi
         for (Animale animale : animali) {
@@ -16,6 +17,16 @@ public class Main {
             animale.eat();
             animale.sleep();
             animale.sound();
+            if (animale instanceof CanSwim) {
+                ((CanSwim) animale).swim();
+            }
+            if (animale instanceof CanFly) {
+                ((CanFly) animale).fly();
+            }
         }
+    }
+
+    public static void faiVolare(CanFly animale) {
+        animale.fly();
     }
 }
