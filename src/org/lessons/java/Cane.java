@@ -11,4 +11,10 @@ public class Cane extends Animale{
     public void sound() {
         System.out.println("BAU BAU, WOF WOF!");
     }
+    // OVERRIDE METodo MANGIA
+    @Override
+    public void eat() {
+        super.eat();
+        System.out.println("Sto mangiando i croccantini!");
+    }
 }
