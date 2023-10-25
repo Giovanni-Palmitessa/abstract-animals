@@ -1,6 +1,6 @@
 package org.lessons.java;
 
-public class Pappagallo extends Animale{
+public class Pappagallo extends Animale implements CanFly{
     public Pappagallo(String name) {
         super(name);
     }
@@ -15,5 +15,10 @@ public class Pappagallo extends Animale{
     public void eat() {
         super.eat();
         System.out.println("Sto mangiando i semi di girasole!");
+    }
+
+    @Override
+    public void fly() {
+        System.out.println("Sono un Pappagallo e sto volando!");
     }
 }
