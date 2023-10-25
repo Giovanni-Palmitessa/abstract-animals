@@ -19,6 +19,10 @@ public class Animale {
 
     //METODI
     public void sleep() {
-        System.out.println("I'm sleeping...Zzz");
+        System.out.println("Sto dormendo...Zzz");
+    }
+
+    public void eat(String food) {
+        System.out.println("Sto mangiando..." + food);
     }
 }
