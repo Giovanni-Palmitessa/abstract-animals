@@ -6,5 +6,9 @@ public class Main {
         Cane cane = new Cane("GianGiorgio");
         Gatto gatto = new Gatto("Genoveffa");
         Pappagallo pappagallo = new Pappagallo("Kiwi");
+
+        Animale[] animali = {cane, gatto, pappagallo};
+
+
     }
 }
