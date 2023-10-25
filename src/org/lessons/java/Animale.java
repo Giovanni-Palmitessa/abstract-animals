@@ -1,6 +1,6 @@
 package org.lessons.java;
 
-public class Animale {
+public abstract class Animale {
     // ATTRIBUTI
     private String name;
 
@@ -21,8 +21,9 @@ public class Animale {
     public void sleep() {
         System.out.println("Sto dormendo...Zzz");
     }
-
     public void eat(String food) {
         System.out.println("Sto mangiando..." + food);
     }
+
+    public abstract void sound();
 }
